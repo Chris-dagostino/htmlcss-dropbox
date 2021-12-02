@@ -20,6 +20,11 @@ a {
     text-decoration: none;
 }
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 /*header*/
 header {
@@ -63,11 +68,9 @@ main .jumbotron {
 }
 
 main .container-main {
-    background-color: rgb(16, 32, 32);
     width: 70%;
     height: 600px;
     margin: auto;
-    margin-top: 170px;
 }
 
 
@@ -149,7 +152,7 @@ main .img-1{
     height: 340px;
     position: absolute;
     top: 250px;
-    right: 530px;
+    right: 300px;
 }
 
 main .container-jumbo::after {
@@ -169,6 +172,32 @@ main .left-50 {
 }
 
 /*fine main*/
+
+
+
+/*section 2 main*/
+.section-1 {
+    margin-top: 60px;
+}
+
+.selezione {
+    margin-top: 20px;
+}
+
+.container-table .row {
+    height: 400px;
+    width: calc(100%/3 - 30px);
+    margin: 10px;
+    border: 2px solid #000;
+    display: inline-block;
+}
+
+
+
+
+/* fine section 2 main*/
+
+
 
 
 
