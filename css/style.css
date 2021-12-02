@@ -12,6 +12,10 @@ header {
     background-color: aqua;
     width: 100%;
     height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
 }
 /*fine header*/
 
@@ -23,6 +27,13 @@ main {
     background-color: burlywood;
     width: 100%;
     height: 900px;
+    margin-top: 70px;
+}
+
+main .container {
+    background-color:darkgreen;
+    width: 100%;
+    height: 300px;
 }
 
 main .jumbotron {
@@ -54,3 +65,68 @@ footer {
 
 /*regole generali*/
 
+
+/*body*/
+/*header*/
+
+header .row {
+    display: inline-block;
+    width: 100%;
+    height: 25px;
+}
+
+header .logo {
+    height: 100%;
+}
+
+header .logo img {
+    height: 100%;
+}
+
+header .head-sx {
+    float: left;
+    height: 100%;
+    display: inline;
+
+}
+
+header .head-dx {
+    float: right;
+    display: inline;
+}
+
+header nav {
+    height: 100%;
+    text-decoration: none;
+    display: inline;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+
+/*fine header*/
+
+
+
+
+/*footer*/
+.foot-up {
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+}
+
+.foot-up .col {
+    display: inline-block;
+    margin-top: 0px 10px;
+}
+
+
+
+/*fine footer*/
+
+
+/*fine body*/
