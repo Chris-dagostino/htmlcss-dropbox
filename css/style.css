@@ -29,6 +29,7 @@ a {
 .container {
     width: 90%;
     height: 400px;
+    margin: auto;
 }
 
 /*header*/
@@ -65,7 +66,7 @@ main .container {
 }
 
 main .jumbotron {
-    width: 80%;
+    width: 80vw;
     height: 470px;
     margin: auto;
     padding: 20px;
@@ -93,6 +94,10 @@ footer {
 
 
 /*regole generali*/
+
+
+
+
 
 
 /*body*/
