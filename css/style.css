@@ -32,6 +32,16 @@ a {
     margin: 20px auto;
 }
 
+.title {
+    text-align: center;
+    display: block;
+    border-bottom: solid 1px #000;
+}
+
+.text-box {
+    padding: 10px;
+}
+
 /*header*/
 header {
     background-color: white;
@@ -185,7 +195,6 @@ main .left-50 {
 }
 
 .section-1 .col {
-    height: 200px;
     float: left;
     width: 30%;
     border: solid 1px #000;
@@ -197,6 +206,25 @@ main .left-50 {
     display: table;
     clear: both;
 }
+
+.foot-section-1 {
+    margin: 10px 0px;
+    border: solid 1px #000;
+}
+
+.foot-section-1 .text-box{
+    position: relative;
+}    
+
+.foot-section-1 .btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+} 
+
+
+
 
 /* fine section 1 main*/
 
@@ -223,14 +251,20 @@ img.img-section-1{
 }
 
 .text-partners h2 {
-    margin: 15px 0px;
+    margin-top: 10px;
 }
 
-.btn .btn-white {
+.text-partners p {
+    padding: 10px 0px;
+}
+
+.btn.btn-white {
     background-color: white;
     color: black;
     border: solid 1px #000;
 }
+
+
 
 /* fine section 2 main*/
 
