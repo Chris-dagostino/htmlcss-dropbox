@@ -191,8 +191,7 @@ main .left-50 {
 
 
 .section-1 .row {
-    width: 100%;
-   
+    width: 100%; 
 }
 
 .section-1 .col {
@@ -234,13 +233,9 @@ main .left-50 {
 
 
 /* fine section 2 main*/
-.container .section-2 {
-    width: 80%;
-    margin: auto;
-}
 
 
-img.img-section-1{
+img.img-section-2{
     width: 100%;
 }
 
@@ -268,16 +263,88 @@ img.img-section-1{
     border: solid 1px #000;
 }
 
+.faq {
+    border-bottom: solid 1px #000;
+    padding: 20px 0px;
+}
 
 
 /* fine section 2 main*/
 
 
 /* section 3 main*/
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row {
+    width: 100%;
+}
+.card {
+    width: 30%;
+    float: left; 
+}
+
+.card {
+    display: inline-block;
+}
+
+.card.card-2{
+    margin: 0px 10px;
+}
+
+.photo {
+    width: 100%;
+}
+
+.Ticket {
+    width: 100%;
+}
+
 /* fine section 3 main*/
 
 
 /* section 4 main*/
+
+.diviso-1 {
+    width: 50%;
+}
+
+.section-4 a {
+    text-decoration: underline; 
+    color: rgb(0, 110, 255);
+}
+
+.diviso-3 {
+    width: 100%;
+    background-color:  rgb(136, 223, 235,1);
+    padding: 100px 0px;
+}
+
+.cont-sec4 {
+    width: 80%;
+    margin: auto;
+}
+
+.cont-sec4 h2 {
+    color: rgb(160, 24, 24);
+    width: 50%;
+    display: inline-block;
+}
+
+
+.diviso-3 .btn {
+    background-color: white;
+    color: #000;
+    display: inline-block;
+    float: right;
+    margin-right: 300px;
+    vertical-align: middle;
+}
+
+
 /* fine section 4 main*/
 
 
