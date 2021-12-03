@@ -214,8 +214,14 @@ main .left-50 {
 
 /* fine section 2 main*/
 
-main .container .section-2 {
-    width: ;
+.container .section-2 .partners {
+    width: 50%;
+    background-image: url("../img/partner.png");
+    background-size: cover;
+}
+
+.container .section-2 .text-partners {
+
 }
 
 /* fine section 2 main*/
