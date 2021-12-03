@@ -182,12 +182,8 @@ main .left-50 {
     max-width: 1180px;
 }
 
-.selezioni {
-    margin-top: 20px;
-}
-
 .section-1 .row {
-    width: calc(100% -10px);
+    width: calc(100%/3 -20px);
 }
 
 .section-1 .col {
@@ -195,12 +191,6 @@ main .left-50 {
     float: left;
     width: 30%;
     border: solid 1px #000;
-}
-
-.section-1 .foot-section-1 {
-    height: 100px;
-    margin-top: 20px;
-    width: 100%;
 }
 
 .section-1::after{
@@ -213,11 +203,17 @@ main .left-50 {
 
 
 /* fine section 2 main*/
+.container .section-2 {
+    width: 80%;
+    margin: auto;
+}
 
 .container .section-2 .partners {
-    width: 50%;
-    background-image: url("../img/partner.png");
-    background-size: cover;
+   width: 50%;
+}
+
+.container .section-2 .partners .img-section-1{
+    width: 100%;  
 }
 
 .container .section-2 .text-partners {
