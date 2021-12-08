@@ -395,26 +395,33 @@ img.img-section-2{
 }
 
 .diviso-2 .cont .row .col {
-    width: 25%;
-    height: 400px;
+    width: 30%;
+    height: 15vw;
     float: left;
 }
 
 .diviso-2 .cont .row .col-center {
-    width: 50%;
-    height: 400px;
+    width: 40%;
+    height: 30vw;
     background-color: rgb(234, 236, 238);
     float: left;
+    padding: 50px;
 }
 
 .diviso-2 .cont .row .col .row2 .box {
     width: 50%;
-    height: 200px;
+    height: 15vw;
     float: left;
 }
 
 .diviso-2 .cont .row .col .row2 .box1 {
     background-color: rgb(117, 252, 146);
+}
+
+.diviso-2 .cont .row .col .row2 img {
+    background-size: cover;
+    width: 100%;
+    padding: 30px;
 }
 
 .diviso-2 .cont .row .col .row2 .box2 {
@@ -445,9 +452,20 @@ img.img-section-2{
     background-color: rgb(255, 227, 68);
 }
 
+.col-center img {
+    height: 45px;
+    margin-bottom: 20px;
+}
 
+.col-center .hr {
+    width: 50px;
+    border: solid 1px #000;
+    margin-bottom: 50px;
+}
 
-
+.foot-col {
+    margin-top: 50px;
+}
 
 
 
