@@ -28,7 +28,6 @@ a {
 }
 
 .container {
-    background-color: violet;
     width: 80%;
     margin: 20px auto;
 }
@@ -225,6 +224,52 @@ main .left-50 {
     right: 10px;
     color: white;
 } 
+
+.text-box h2 {
+    margin-bottom: 15px;
+}
+
+.text-box .strong {
+    font-weight: bold;
+    padding: 6px 0px;
+}
+
+.check {
+    margin-bottom: 15px;
+}
+
+.check-end {
+    margin-bottom: 100px;
+}
+
+.space {
+    margin-bottom: 15px;
+}
+
+.space-st {
+    margin-top: 30px;
+}
+
+.space-bot {
+    margin-bottom: 20px;
+}
+
+.text-box a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.space-br span {
+    border-bottom: solid 1px #000;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}    
+
+.space-br {
+    margin-bottom: 30px;
+}
+
+
 
 
 
