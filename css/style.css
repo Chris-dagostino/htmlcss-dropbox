@@ -76,7 +76,7 @@ main {
 }
 
 main .container-jumbo {
-    background-color: rgb(136, 223, 235,1);
+    background-color: #b4d0e7;
     width: 100%;
 }
 
@@ -379,7 +379,7 @@ img.img-section-2{
 
 .diviso-3 {
     width: 100%;
-    background-color:  rgb(200, 214, 241);
+    background-color:  #b4d0e7;
     padding: 100px 0px;
 }
 
@@ -427,7 +427,7 @@ img.img-section-2{
 .diviso-2 .cont .row .col-center {
     width: 40%;
     height: 30vw;
-    background-color: rgb(234, 236, 238);
+    background-color: #f5f5f5;
     float: left;
     padding: 50px;
     overflow: hidden;
@@ -443,43 +443,44 @@ img.img-section-2{
     height: 15vw;
     float: left;
 }
-
-.diviso-2 .cont .row .col .row2 .box1 {
-    background-color: rgb(117, 252, 146);
-}
-
 .diviso-2 .cont .row .col .row2 img {
     background-size: cover;
     width: 100%;
     padding: 30px;
+    filter: invert();
 }
 
+.diviso-2 .cont .row .col .row2 .box1 {
+    background-color: #a2d39b;
+}
+
+
 .diviso-2 .cont .row .col .row2 .box2 {
-    background-color: darkred;
+    background-color: #61082b;
 }
 
 .diviso-2 .cont .row .col .row2 .box3 {
-    background-color: rgb(3, 159, 211);
+    background-color: #0093ce;
 }
 
 .diviso-2 .cont .row .col .row2 .box4 {
-    background-color: red;
+    background-color: #ff1c1c;
 }
 
 .diviso-2 .cont .row .col .row2 .box5 {
-    background-color: rgb(211, 0, 0);
+    background-color: #d5001f;
 }
 
 .diviso-2 .cont .row .col .row2 .box6 {
-    background-color: rgb(169, 212, 252);
+    background-color: #b4d0e7;
 }
 
 .diviso-2 .cont .row .col .row2 .box7 {
-    background-color:rgb(7, 53, 128);
+    background-color:#0d2481;
 }
 
 .diviso-2 .cont .row .col .row2 .box8 {
-    background-color: rgb(255, 227, 68);
+    background-color: #ffd830;
 }
 
 .col-center img {
