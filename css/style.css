@@ -567,13 +567,11 @@ footer ul li a {
 footer .foot-down {
     width: 80%;
     margin: auto;
-    padding-bottom: 60px;
 }
 
-.box {
+.foot-down .box {
     width: 100px;
     display: inline-block;
-    padding-top: 50px;
     border-top: solid 2px rgb(255, 255, 255);
 }
 
