@@ -444,14 +444,22 @@ img.img-section-2{
     float: left;
 }
 .diviso-2 .cont .row .col .row2 img {
-    background-size: cover;
-    width: 100%;
-    padding: 30px;
+    width: 50%;
     filter: invert();
 }
 
 .diviso-2 .cont .row .col .row2 .box1 {
     background-color: #a2d39b;
+    border: solid 10px #d0e9cd;  
+}
+
+.box {
+    text-align: center;
+    line-height: 15vw;
+}
+
+.box img {
+    vertical-align: middle;
 }
 
 
