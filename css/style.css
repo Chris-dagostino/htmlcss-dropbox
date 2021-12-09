@@ -65,6 +65,10 @@ header {
 .text-header {
     margin-top: 15px;
 }
+
+nav ul li a:hover {
+    border-bottom: solid 2px #000;
+}
 /*fine header*/
 
 
@@ -86,6 +90,13 @@ main .jumbotron {
     margin: auto;
     padding: 20px;
     margin-bottom: 80px;
+}
+
+i {
+    font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    color: #000;
 }
 
 
@@ -148,7 +159,6 @@ header li {
 
 header li a {
     display: inline-block;
-    vertical-align: middle;
 }
 
 .inizia {
@@ -171,11 +181,11 @@ header .logo a {
 main .img-1{
     background-image: url("../img/jumbo.png");
     background-size: cover;
-    width: 600px;
-    height: 340px;
+    width: 680px;
+    height: 380px;
     position: absolute;
-    top: 250px;
-    right: 300px;
+    top: 350px;
+    right: 400px;
 }
 
 main h1 {
